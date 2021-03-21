@@ -18,8 +18,7 @@
     "tailwindcss": "^2.0.4"
   },
   "scripts": {
-    "dev": " npm run watch:css & vite",
-    "watch:css":"TAILWIND_MODE=watch postcss ./css/styles.css -o ./build/styles.css -w --verbose",
+    "dev": "vite",
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
